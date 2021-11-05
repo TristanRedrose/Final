@@ -6,22 +6,36 @@ body{
     width: 100vw;
     height: 100vh;
     margin: 0;
+    padding: 0;
 }
 
 .header{
-    background-color: chocolate;
+    margin: auto;
+    background-color: rgba(210, 105, 30, 0.925);
     padding: 15px;
+    border-bottom: 4px rgba(163, 161, 27, 0.938) solid;
+}
+
+.header h1{
+    text-align: center;
+    font-family: Tahoma;
+    font-style: italic;
+}
+
+.header p{
+    text-align: end;
 }
 
 .container-1{
     margin: 10%;
-    border-radius: 24px;
+    border-radius: 32px;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
     background-color: rgb(65, 60, 60);
-    color: white;
+    color: whitesmoke;
+    border: 1px rgba(94, 5, 5, 0.596) solid;
 }
 
 .container-2{
@@ -34,6 +48,7 @@ body{
     flex: 1;
     min-width: 60%;
     padding: 10px;
+    line-height: 1.6em;
 }
 
 .box-2{
@@ -52,16 +67,28 @@ img {
     height: auto;
 }
 
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+}
+
 .btn{
     background-color: black;
     color: whitesmoke;
     border: 2px rgb(14, 34, 90) solid;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
-    padding: 4px;
+    padding: 5px 10px;
 }
 
 .btn:hover{
+    background-color: blanchedalmond;
+    border: 2px chartreuse solid;
+    color: crimson;
+}
+
+.btn:active{
     background-color:  rgb(145, 0, 0);
     border: 2px rgb(132, 137, 151) solid;
     color: black
