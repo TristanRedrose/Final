@@ -35,7 +35,6 @@ body{
     align-items: center;
     background-color: rgb(65, 60, 60);
     color: whitesmoke;
-    border: 1px rgba(94, 5, 5, 0.596) solid;
 }
 
 .container-2{
@@ -53,7 +52,10 @@ body{
 
 .box-2{
     flex: 1;
-    min-width:40%;
+    min-width: 40%;
+    max-height: 200px;
+    display: flex;
+    overflow: auto;
     padding: 10px;
 }
 
@@ -63,8 +65,8 @@ body{
 }
 
 img {
+    object-fit: cover;
     width:100%;
-    height: auto;
 }
 
 .btn-grid{
