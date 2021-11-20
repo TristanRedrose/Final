@@ -183,6 +183,7 @@ const textNodes = [
         options: [
             {
                 text: "Take the carving",
+                requiredState: (currentState) => currentState.carving == null,
                 setState: { carving: true },
                 nextText: 9,
             },
@@ -213,7 +214,7 @@ const textNodes = [
     },
     {
         id: 10,
-        text: "The sooner morning comes, the sooner you can sign the papers and start planning on what to do with this place. Although you feel uneasy you do eventually fall sleep. You dream of veiled faces, of deals struck at midnight, and the maniacal laughter of an old man with nloodied hands. You do not awaken.",
+        text: "The sooner morning comes, the sooner you can sign the papers and start planning on what to do with this place. Although you feel uneasy you do eventually fall sleep. You dream of veiled faces, of deals struck at midnight, and the maniacal laughter of an old man with bloodied hands. You do not awaken.",
         pic: "../pictures/sleep.jpg",
         options: [
             {
