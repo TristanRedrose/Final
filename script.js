@@ -238,6 +238,7 @@ const textNodes = [
             },
             {
                 text: "Approach the door",
+                requiredState: (currentState) => currentState.chargedWand == null,
                 nextText: 13,
             },
             {
