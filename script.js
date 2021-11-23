@@ -51,6 +51,10 @@ const textNodes = [
             {
                 text: "Mansion madness",
                 nextText: 1,
+            },
+            {
+                text: "Credits",
+                nextText: 50,
             }
         ]
     },
@@ -575,6 +579,17 @@ const textNodes = [
         id: 28,
         text: "You throw the wand in the middle of the ritual circle. The wand seems to absorb energy from the circle and release it back into the cultists, making them disintergrate. You untie the prisoner, who turns out to be your cousin, and escape the mansion just as it collapses.",
         pic: "../pictures/end.jpg",
+        options: [
+            {
+                text: "Main menu",
+                nextText: -1,
+            }
+        ]
+    },
+    {
+        id: 50,
+        text: "Special thanks to my sister Maja for playtesting, and my brother Marko for getting me to code. Thanks to cs50, webdevsimplified and traversy media for their video guides.",
+        pic: "../pictures/download.jpg",
         options: [
             {
                 text: "Main menu",
