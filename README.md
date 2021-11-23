@@ -1,6 +1,8 @@
 # Spookhouse
 #### Video Demo:  <URL HERE>
 #### Description:
+Hello CS50.
+My name is Ivan Pavić from Zagreb, Croatia and this is Spookhouse.
 Spookhouse is a web-based text adventure made using HTML, CSS and JavaScript.
 The site consists of a simple title header, a spooky background and a box containing the story, a related image, and button-prompts.
 Upon entering the site the player is prompted to choose an adventure (currently only 1 and credits) via a button prompt. The player 
